@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Breakout</title>
+	</head>
+
+  <body>
+
+		<canvas id="mainScreen" width="960" height="560" style="border:2px solid black;">
+			Sorry, your browser does not support the HTML5 canvas tag.
+		</canvas>
+
+		<p style="position:absolute; left:170px; top:-0.8em; " id="txt1"></p>
+		<p style="position:absolute; left:160px; top:120px; " id="txt2"></p>
+		<button style="position:absolute; left:425px; top:300px; " id="btnStart">START</button>
+
+    <div id="output"></div>
+
+		<p> Use the mouse to move the paddle </p>
+		<p> Press b to change background color</p>
+
+    <script src="variables.js"></script>
+    <script src="renderupdate.js"></script>
+    <script src="brick.js"></script>
+    <script src="paddle.js"></script>
+    <script src="ball.js"></script>
+    <script src="events.js"></script>
+		<script src="main.js"></script>
+  </body>
+
+</html>
